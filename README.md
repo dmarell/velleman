@@ -6,6 +6,8 @@ The library is packaged as an OSGi bundle.
 
 ### Release notes
 
+* Version 1.0.8 - 2015-07-19
+  * Changed repo URL
 * Version 1.0.7 - 2015-07-07
  Moved to Github.
 * Version 1.0.6 - 2014-02-08
