@@ -68,6 +68,13 @@ Oct 26 00:59:45 spitfire kernel: [1549618.878825] generic-usb 0003:10CF:5500.001
 ...
 ```
 
+Install JNA (for RPi):
+
+```
+$ sudo apt-get install -y libusb-1.0-0-dev libjna-java
+$ sudo -s ln -s /usr/lib/arm-linux-gnueabihf/jni/libjnidispatch.so /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/arm/libjnidispatch.so
+```
+
 Arrange for setting permissions on the device in order to be able to open it:
 
 ```
